@@ -1,0 +1,328 @@
+*{
+    margin: 0 0 0 0;
+    user-select: none;
+    text-decoration: none;
+
+}
+body{
+   background:  #EFEFEF
+}
+.menu{
+    background: #FFFFFF;
+    width: 100%;
+    height: 96px;
+    display: flex;
+}
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  #okno {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #434343;
+    border-radius: 10px;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #FFCC33;
+  }
+  #vnutrelement{
+    margin-top: 10px;
+  }
+  
+  #zatemnenie:target {display: block;}
+  .close {
+    display: flex;
+    
+    border: 1px solid #0000cc;
+    color: #0000cc;
+    padding: 0 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+    margin-left: 40px;
+    border: 3px solid #434343;
+    border-radius: 20px;
+    background: #FFCC33;
+  }
+  .close:hover {background: tan}
+.logo{
+  padding-top: 18px;
+    padding-left: 197px;
+}
+.naimenovanie{
+padding-top:40px;
+    padding-left: 50px;
+Font-size: 15px;
+Line-height: 120%;
+
+    Vertical-align: Center;
+Letter-spacing: 2%;
+    opacity: 70%;
+
+}
+.oproject{
+    color: black;
+    padding-top: 40px;
+    margin-left: 700px;
+
+}
+.pomosh22{
+    list-style: none;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+.soobshaiteoproblemah{
+
+    height: 248px;
+    width: 1200px;
+    margin-left: 195px;
+    margin-top: 36px;
+    border-radius: 12px;
+    background: #FFCC33;
+    padding-left: 20px;
+
+}
+.soobtext{
+    font-family: ALS Hauss;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.soobtext2{
+    font-family: ALS Hauss;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-left: 20px;
+
+}
+.btnproblema{
+    background: #FFFFFF;
+    color: black;
+    height: 40px;
+    width: 204px;
+    margin-left: 21px;
+    position: relative;
+    top: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 12px 24px 12px 24px;
+}
+.img21{
+    position: absolute;
+    top: 140px;
+    left: 1000px;
+}
+.vkla{
+    display: flex;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+.moiuprorg{
+    height: 241px;
+    width: 695px;
+    left: 195px;
+    top: 399px;
+    border-radius: 12px;
+background: #FFFFFF;
+    padding: 30px;
+    justify-content: center;
+}
+.jalob{
+    height: 240px;
+    width: 399px;
+margin-left: 20px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 30px;
+}
+.uprorgtext{
+    margin-top: 10px;
+}
+.textsnizupr{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 10px;
+}
+.buttongroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 106px;
+    height: 30px;
+    background: #FFCC33;
+    border-radius: 8px;
+    color: black;
+    margin-top: 60px;
+}
+.buttongroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 106px;
+    height: 30px;
+    background: #FFCC33;
+    border-radius: 8px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.imggroup{
+    position: absolute;
+    top: 480px;
+    left: 650px;
+}
+.tridiv{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.previ{
+    width: 330px;
+    height: 150px;
+    background: #FFFFFF;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 12px;
+}
+.previ1{
+    width: 330px;
+    height: 160px;
+    background: #FFFFFF;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 12px;
+    margin-left: 196px;
+}
+.textpervi {
+    margin-top: 10px;
+}
+.textsnizpervi{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.kartinaa{
+    position: absolute;
+    top:1000px;
+    left: 900px;
+}
+.jeltayafignya{
+    position: absolute;
+    width: 1250px;
+    height: 186px;
+    left: 195px;
+    top: 1307px;
+    justify-content:center ;
+    align-items: center;
+    display: flex;
+    background: #FFCC33;
+    border-radius: 12px;
+}
+.divkijeltoi{
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.cifra{
+    font-size: 45px;
+}
+.textsnizcifra{
+    color: #434343;
+    margin-top: 5px;
+}
+.posled{
+    background: #FFFFFF;
+    width: 1383px;
+    height: 280px;
+    padding-top: 30px;
+    padding-left: 200px;
+    position: absolute;
+    top:1650px;
+    display: flex;
+}
+.textikon12{
+    margin-top: 10px;
+}
+.raz1{
+    margin-left: 150px;
+}
+.razdel1, .razdel2 {
+    display: grid;
+}
+.razdel2{
+    margin-left: 50px;
+}
+.knopkiraz1div1{
+    color: #434343;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.iraz1div12{
+    color: #434343;
+padding-top: 10px;
+    font-size: 15px;
+}
+.divraz1{
+    display: flex;
+}
+.pomosh{
+}
+.raz3{
+    margin-left: 100px;
+}
+.knopkiii{
+    display: grid;
+    padding-top: 10px;
+}
+.linia{
+    border: 0.5px solid rgba(196, 196, 196, 0.6);
+    position: absolute;
+    width: 1250px;
+    height: 0px;
+    left: 195px;
+    top: 1881px;
+}
+.textkonecc{
+    position: absolute;
+    top: 1900px;
+    left: 195px;
+}
+.koneccapp{
+    position: absolute;
+    top: 1900px;
+    left: 1025px;
+}
+.koneccapp2{
+    position: absolute;
+    top: 1900px;
+    left: 1205px;
+}
